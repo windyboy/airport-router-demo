@@ -37,7 +37,7 @@ repositories {
     maven {
         url "https://packages.confluent.io/maven/"
     }
-//    jcenter()
+    jcenter()
 }
 
 shadowJar {
