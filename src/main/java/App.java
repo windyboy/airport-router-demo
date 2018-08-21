@@ -38,7 +38,7 @@ public class App {
                 .filter((route, system) -> {
                             log.debug("rid:"+route+", systems:"+system);
                             boolean flag = system == null ? false : system.toLowerCase().contains(subsystem.toLowerCase());
-                            if (flag) log.info(system+" got ["+route+"]");
+                            if (flag) log.info(subsystem+" got ["+route+"]");
                             return flag;
                         }
                 );
